@@ -96,7 +96,7 @@ def IterateMainPage(location_string, loop_limit):
 #######################################
 
 
-def ParseMainXML(url= 'https://www.airbnb.com/s/Cambridge--MA--United-States', pg = 0):
+def ParseMainXML(url= 'https://www.airbnb.com/s/San-Francisco--CA--United-States', pg = 0):
     
     """
     input: url (string )
@@ -798,7 +798,7 @@ def writeToCSV(resultDict, outfile):
 if __name__ == '__main__':
     
     #Iterate Through Main Page To Get Results
-    MainResults = IterateMainPage('Cambridge--MA', 1)
+    MainResults = IterateMainPage('San-Francisco--CA', 1)
     
     #Take The Main Results From Previous Step and Iterate Through Each Listing
     #To add more detail
