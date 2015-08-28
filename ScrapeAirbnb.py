@@ -74,7 +74,7 @@ def IterateMainPage(location_string, loop_limit):
     
     
     try:
-        for n in range(1, loop_limit+1):
+        for n in range(100, loop_limit+1):
             print 'Processing Main Page %s out of %s' % (str(n), str(loop_limit))
             #Implement random time delay for scraping
             sleep(randint(0,2))
