@@ -804,10 +804,4 @@ if __name__ == '__main__':
     DetailResults = iterateDetail(MainResults)
     
     #Write Out Results To CSV File, using function I defined
-<<<<<<< HEAD
-    writeToCSV(MainResults, 'OtherWriter.csv')
-=======
     writeToCSV(DetailResults, 'OtherWriter.csv')
-    
-    
->>>>>>> origin/master
