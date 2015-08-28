@@ -792,7 +792,7 @@ def writeToCSV(resultDict, outfile):
         w.writerows(resultDict)
 
 #######################################
-#  Testing ############################
+#  Testing ############################ 
 #######################################
 
 if __name__ == '__main__':
@@ -805,4 +805,4 @@ if __name__ == '__main__':
     DetailResults = iterateDetail(MainResults)
     
     #Write Out Results To CSV File, using function I defined
-    writeToCSV(DetailResults, 'data-'+datetime.datetime.now().strftime("%Y-%m-%d.csv'))
+    writeToCSV(DetailResults, 'data-'+datetime.datetime.now().strftime("%Y-%m-%d.csv"))
