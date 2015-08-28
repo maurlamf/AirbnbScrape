@@ -7,6 +7,7 @@ CS109 Harvard Intro To Data Science
 Scraping Airbnb
 """
 
+import datetime
 import mechanize
 import cookielib
 from lxml import html
@@ -804,4 +805,4 @@ if __name__ == '__main__':
     DetailResults = iterateDetail(MainResults)
     
     #Write Out Results To CSV File, using function I defined
-    writeToCSV(DetailResults, 'OtherWriter.csv')
+    writeToCSV(DetailResults, 'data-'+datetime.datetime.now().strftime("%Y-%m-%d.csv'))
