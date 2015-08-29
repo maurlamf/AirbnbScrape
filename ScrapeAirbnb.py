@@ -798,7 +798,7 @@ def writeToCSV(resultDict, outfile):
 if __name__ == '__main__':
     
     #Iterate Through Main Page To Get Results
-    MainResults = IterateMainPage('San-Francisco--CA', 100)
+    MainResults = IterateMainPage('San-Francisco--CA', 80)
     
     #Take The Main Results From Previous Step and Iterate Through Each Listing
     #To add more detail
